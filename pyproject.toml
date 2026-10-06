@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "policy-path-equity"
+version = "0.2.0"
+description = "Auditable policy-path repricing and equity research scaffold"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<3", "pandas>=2.0,<3"]
+
+[project.scripts]
+policy-path = "policy_path.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["policy_path*"]
+
+[tool.setuptools.package-data]
+policy_path = ["default_config.json"]

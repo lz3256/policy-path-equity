@@ -1,0 +1,29 @@
+{
+  "v01_reference": {
+    "seconds": 1.3803774169646204,
+    "daily_rows": 13350,
+    "audit_rows": 0
+  },
+  "v02_vectorized": {
+    "seconds": 0.005076375091448426,
+    "daily_rows": 13350,
+    "audit_rows": 0
+  },
+  "large_vectorized": {
+    "assets": 3000,
+    "weeks": 1300,
+    "daily_rows": 19521000,
+    "generation_seconds": 6.206375875044614,
+    "aggregation_seconds": 2.524027999956161,
+    "stock_window_rows": 3900000,
+    "holding_rows": 3900000,
+    "audit_rows": 0
+  },
+  "peak_process_rss_mib": 1916.703125,
+  "environment": {
+    "python": "3.12.14",
+    "system": "Darwin",
+    "machine": "arm64"
+  },
+  "caveat": "Artificial weekday data, no CSV I/O. Entire input and output still reside in RAM. Not a WRDS download benchmark or an entire-strategy runtime."
+}

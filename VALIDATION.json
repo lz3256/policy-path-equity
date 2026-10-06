@@ -1,0 +1,18 @@
+{
+  "public_copy_tests_passed": 40,
+  "test_command": "python -m unittest discover -s tests -v",
+  "synthetic_demo_end_to_end": "passed",
+  "real_data_download_performed_in_public_verification": false,
+  "empirical_results_rerun_in_public_verification": false,
+  "tested_runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "2.3.3",
+    "reportlab": "4.5.1",
+    "matplotlib": "3.11.2",
+    "pyarrow": "23.0.1",
+    "macrosynergy": "1.8.0",
+    "exchange-calendars": "4.13.2"
+  },
+  "synthetic_revised_execution_demo": "passed"
+}
